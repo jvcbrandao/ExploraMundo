@@ -1,0 +1,487 @@
+{
+  "destinos": [
+    {
+      "cidade": "Rio de Janeiro",
+      "pais": "Brasil",
+      "descricao": "Rio de Janeiro é uma cidade vibrante, famosa por suas praias icônicas, o carnaval e a estátua do Cristo Redentor.",
+      "fuso_horario": "America/Sao_Paulo",
+      "categorias": [
+        {
+          "tipo": "Praia",
+          "locais": [
+            {
+              "nome": "Praia de Copacabana",
+              "descricao": "Uma das praias mais famosas do mundo, conhecida por sua longa extensão de areia dourada e vida noturna animada.",
+              "imagem_url": "./images/rio.jpg",
+              "atividades": [
+                "Banho de sol",
+                "Vôlei de praia",
+                "Surfe"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Paris",
+      "pais": "França",
+      "descricao": "Paris é a capital da França, conhecida como a 'Cidade Luz', famosa por seus monumentos, museus e gastronomia refinada.",
+      "fuso_horario": "Europe/Paris",
+      "categorias": [
+        {
+          "tipo": "Monumento",
+          "locais": [
+            {
+              "nome": "Torre Eiffel",
+              "descricao": "Um dos monumentos mais icônicos do mundo, a Torre Eiffel oferece vistas panorâmicas de Paris.",
+              "imagem_url": "./images/paris.jpg",
+              "atividades": [
+                "Visita guiada",
+                "Jantar no restaurante",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Catedral de Notre-Dame",
+              "descricao": "Uma catedral gótica de renome mundial, conhecida por sua arquitetura impressionante e vitrais detalhados.",
+              "imagem_url": "./images/paris.jpg",
+              "atividades": [
+                "Visita histórica",
+                "Observação arquitetônica"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Tóquio",
+      "pais": "Japão",
+      "descricao": "Tóquio é a capital do Japão, uma metrópole moderna que combina a tradição cultural com a tecnologia avançada.",
+      "fuso_horario": "Asia/Tokyo",
+      "categorias": [
+        {
+          "tipo": "Templo",
+          "locais": [
+            {
+              "nome": "Templo Senso-ji",
+              "descricao": "O templo budista mais antigo de Tóquio, um importante destino espiritual e turístico.",
+              "imagem_url": "./images/toquio.jpg",
+              "atividades": [
+                "Visita espiritual",
+                "Caminhada pela Nakamise-dori"
+              ]
+            },
+            {
+              "nome": "Meiji Jingu",
+              "descricao": "Um santuário xintoísta dedicado ao Imperador Meiji e sua esposa, localizado em uma floresta serena no centro de Tóquio.",
+              "imagem_url": "./images/toquio.jpg",
+              "atividades": [
+                "Cerimônias religiosas",
+                "Exploração da natureza"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Nova York",
+      "pais": "Estados Unidos",
+      "descricao": "Nova York é uma das cidades mais icônicas do mundo, conhecida por sua diversidade cultural, arquitetura impressionante e vida noturna vibrante.",
+      "fuso_horario": "America/New_York",
+      "categorias": [
+        {
+          "tipo": "Museu",
+          "locais": [
+            {
+              "nome": "Museu Metropolitano de Arte (The Met)",
+              "descricao": "Um dos maiores e mais prestigiados museus de arte do mundo, com uma coleção que abrange mais de 5.000 anos de cultura.",
+              "imagem_url": "./images/newyork.jpg",
+              "atividades": [
+                "Exploração de arte",
+                "Visitas guiadas"
+              ]
+            },
+            {
+              "nome": "Museu de História Natural",
+              "descricao": "Um dos museus de história natural mais importantes do mundo, com exposições que incluem fósseis de dinossauros e uma vasta coleção de espécimes.",
+              "imagem_url": "./images/newyork.jpg",
+              "atividades": [
+                "Exploração científica",
+                "Visitas educacionais"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Londres",
+      "pais": "Reino Unido",
+      "descricao": "Londres é a capital do Reino Unido, uma cidade rica em história, cultura e famosa por seus marcos como o Big Ben e o Palácio de Buckingham.",
+      "fuso_horario": "Europe/London",
+      "categorias": [
+        {
+          "tipo": "Monumento",
+          "locais": [
+            {
+              "nome": "Big Ben",
+              "descricao": "O relógio mais famoso do mundo, localizado na torre do Parlamento britânico.",
+              "imagem_url": "./images/londres.jpg",
+              "atividades": [
+                "Visita guiada",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Palácio de Buckingham",
+              "descricao": "A residência oficial da Rainha do Reino Unido, com a famosa troca da guarda.",
+              "imagem_url": "./images/londres.jpg",
+              "atividades": [
+                "Tour pela história real",
+                "Observação da troca da guarda"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "São Paulo",
+      "pais": "Brasil",
+      "descricao": "São Paulo é a maior cidade do Brasil e um importante centro financeiro, cultural e gastronômico.",
+      "fuso_horario": "America/Sao_Paulo",
+      "categorias": [
+        {
+          "tipo": "Museu",
+          "locais": [
+            {
+              "nome": "Museu de Arte de São Paulo (MASP)",
+              "descricao": "Um dos museus de arte mais importantes da América Latina, famoso por seu prédio suspenso e uma vasta coleção de obras.",
+              "imagem_url": "./images/saopaulo.jpg",
+              "atividades": [
+                "Exploração de arte",
+                "Visitas guiadas"
+              ]
+            },
+            {
+              "nome": "Museu do Futebol",
+              "descricao": "Localizado no estádio do Pacaembu, o museu celebra a história do futebol no Brasil e no mundo.",
+              "imagem_url": "./images/saopaulo.jpg",
+              "atividades": [
+                "Exploração interativa",
+                "Exposições históricas"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Buenos Aires",
+      "pais": "Argentina",
+      "descricao": "Buenos Aires é a capital da Argentina, conhecida por sua arquitetura europeia, tango e uma vibrante cena cultural.",
+      "fuso_horario": "America/Argentina/Buenos_Aires",
+      "categorias": [
+        {
+          "tipo": "Bairro",
+          "locais": [
+            {
+              "nome": "La Boca",
+              "descricao": "Um dos bairros mais icônicos de Buenos Aires, famoso por suas casas coloridas e pelo tango.",
+              "imagem_url": "./images/buenosaires.jpg",
+              "atividades": [
+                "Caminhada cultural",
+                "Espetáculos de tango"
+              ]
+            },
+            {
+              "nome": "Recoleta",
+              "descricao": "Um bairro elegante, conhecido por suas avenidas arborizadas, cafés e o famoso Cemitério da Recoleta.",
+              "imagem_url": "./images/buenosaires.jpg",
+              "atividades": [
+                "Passeios históricos",
+                "Exploração arquitetônica"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Lisboa",
+      "pais": "Portugal",
+      "descricao": "Lisboa, a capital de Portugal, é uma cidade histórica com uma rica herança cultural, conhecida por suas colinas, bondes antigos e a belíssima Torre de Belém.",
+      "fuso_horario": "Europe/Lisbon",
+      "categorias": [
+        {
+          "tipo": "Monumento",
+          "locais": [
+            {
+              "nome": "Torre de Belém",
+              "descricao": "Um dos monumentos mais emblemáticos de Lisboa, a Torre de Belém é um símbolo da Era dos Descobrimentos.",
+              "imagem_url": "./images/lisboa.JPG",
+              "atividades": [
+                "Visita histórica",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Mosteiro dos Jerónimos",
+              "descricao": "Um impressionante mosteiro manuelino, Patrimônio Mundial da UNESCO, onde estão enterrados Vasco da Gama e Luís de Camões.",
+              "imagem_url": "./images/lisboa.JPG",
+              "atividades": [
+                "Visita cultural",
+                "Exploração arquitetônica"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Roma",
+      "pais": "Itália",
+      "descricao": "Roma, a capital da Itália, é uma cidade antiga com uma história que remonta a mais de 2.500 anos, famosa por seus monumentos como o Coliseu e a Cidade do Vaticano.",
+      "fuso_horario": "Europe/Rome",
+      "categorias": [
+        {
+          "tipo": "Monumento",
+          "locais": [
+            {
+              "nome": "Coliseu",
+              "descricao": "O maior anfiteatro já construído, o Coliseu é um símbolo icônico do Império Romano e da história da cidade.",
+              "imagem_url": "./images/roma.jpg",
+              "atividades": [
+                "Visita guiada",
+                "Fotografia",
+                "Exploração histórica"
+              ]
+            },
+            {
+              "nome": "Basílica de São Pedro",
+              "descricao": "A maior basílica do cristianismo, localizada na Cidade do Vaticano, é um dos locais mais sagrados para os católicos.",
+              "imagem_url": "./images/roma.jpg",
+              "atividades": [
+                "Peregrinação",
+                "Exploração artística",
+                "Visita ao teto"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Berlim",
+      "pais": "Alemanha",
+      "descricao": "Berlim, a capital da Alemanha, é uma cidade repleta de história e cultura, conhecida por seus marcos como o Portão de Brandemburgo e o Muro de Berlim.",
+      "fuso_horario": "Europe/Berlin",
+      "categorias": [
+        {
+          "tipo": "História",
+          "locais": [
+            {
+              "nome": "Portão de Brandemburgo",
+              "descricao": "Um símbolo da reunificação alemã, este portão neoclássico é um dos marcos mais conhecidos de Berlim.",
+              "imagem_url": "./images/berlim.jpg",
+              "atividades": [
+                "Passeio histórico",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Muro de Berlim",
+              "descricao": "O Muro de Berlim é um dos monumentos mais importantes da cidade, um símbolo da Guerra Fria e da divisão da Alemanha.",
+              "imagem_url": "./images/berlim.jpg",
+              "atividades": [
+                "Visita histórica",
+                "Museu ao ar livre"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Sydney",
+      "pais": "Austrália",
+      "descricao": "Sydney é a maior cidade da Austrália, famosa pela Opera House, a Harbour Bridge e suas belas praias.",
+      "fuso_horario": "Australia/Sydney",
+      "categorias": [
+        {
+          "tipo": "Arquitetura",
+          "locais": [
+            {
+              "nome": "Sydney Opera House",
+              "descricao": "Um dos edifícios mais icônicos do mundo, a Opera House é um símbolo da cidade e um centro de artes performáticas.",
+              "imagem_url": "./images/sydney.jpg",
+              "atividades": [
+                "Tour arquitetônico",
+                "Shows",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Harbour Bridge",
+              "descricao": "A Harbour Bridge é uma das maiores pontes em arco de aço do mundo, oferecendo vistas deslumbrantes da cidade e do porto.",
+              "imagem_url": "./images/sydney.jpg",
+              "atividades": [
+                "Escalada na ponte",
+                "Passeios de barco",
+                "Fotografia"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "Praia",
+          "locais": [
+            {
+              "nome": "Bondi Beach",
+              "descricao": "Uma das praias mais famosas da Austrália, conhecida por suas ótimas condições para surfe e seu ambiente descontraído.",
+              "imagem_url": "./images/sydney.jpg",
+              "atividades": [
+                "Surfe",
+                "Banho de sol",
+                "Natação"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Cidade do Cabo",
+      "pais": "África do Sul",
+      "descricao": "Cidade do Cabo é uma das cidades mais bonitas do mundo, cercada por montanhas e praias, famosa pelo Cabo da Boa Esperança e pela Table Mountain.",
+      "fuso_horario": "Africa/Johannesburg",
+      "categorias": [
+        {
+          "tipo": "Natureza",
+          "locais": [
+            {
+              "nome": "Table Mountain",
+              "descricao": "Uma das Novas Sete Maravilhas da Natureza, a Table Mountain oferece vistas panorâmicas espetaculares da cidade e do oceano.",
+              "imagem_url": "./images/cidadedocabo.jpg",
+              "atividades": [
+                "Caminhada",
+                "Passeio de teleférico",
+                "Fotografia"
+               ]
+            },
+            {
+              "nome": "Cabo da Boa Esperança",
+              "descricao": "Um ponto de referência icônico, onde o Oceano Atlântico e o Índico se encontram, oferecendo paisagens impressionantes e trilhas para caminhadas.",
+              "imagem_url": "./images/cidadedocabo.jpg",
+              "atividades": [
+                "Exploração de trilhas",
+                "Observação da vida selvagem",
+                "Fotografia"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Dubai",
+      "pais": "Emirados Árabes Unidos",
+      "descricao": "Dubai é uma metrópole ultramoderna conhecida por sua arquitetura inovadora, como o Burj Khalifa, e por ser um importante centro de negócios e turismo.",
+      "fuso_horario": "Asia/Dubai",
+      "categorias": [
+        {
+          "tipo": "Arquitetura",
+          "locais": [
+            {
+              "nome": "Burj Khalifa",
+              "descricao": "O edifício mais alto do mundo, com 828 metros, o Burj Khalifa oferece vistas incríveis da cidade a partir do seu deck de observação.",
+              "imagem_url": "./images/dubai.jpg",
+              "atividades": [
+                "Visita ao deck de observação",
+                "Fotografia",
+                "Jantar no restaurante"
+              ]
+            },
+            {
+              "nome": "Palm Jumeirah",
+              "descricao": "Uma ilha artificial em forma de palmeira, Palm Jumeirah é um exemplo impressionante de engenharia moderna e é lar de resorts de luxo.",
+              "imagem_url": "./images/dubai.jpg",
+              "atividades": [
+                "Passeios de barco",
+                "Relaxamento em resorts",
+                "Compras"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Bangkok",
+      "pais": "Tailândia",
+      "descricao": "Bangkok é a capital da Tailândia, uma cidade conhecida por seus templos ornamentados, palácios reais e uma vibrante vida noturna.",
+      "fuso_horario": "Asia/Bangkok",
+      "categorias": [
+        {
+          "tipo": "Templo",
+          "locais": [
+            {
+              "nome": "Wat Arun",
+              "descricao": "Conhecido como o Templo do Amanhecer, Wat Arun é um dos templos mais bonitos e visitados de Bangkok, situado às margens do rio Chao Phraya.",
+              "imagem_url": "./images/bangkok.jpg",
+              "atividades": [
+                "Visita espiritual",
+                "Exploração cultural",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Grande Palácio",
+              "descricao": "Um complexo de edifícios que serviu como residência oficial dos reis da Tailândia, famoso por sua arquitetura deslumbrante e o Templo do Buda de Esmeralda.",
+              "imagem_url": "./images/bangkok.jpg",
+              "atividades": [
+                "Visita histórica",
+                "Exploração cultural",
+                "Fotografia"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cidade": "Moscou",
+      "pais": "Rússia",
+      "descricao": "Moscou, a capital da Rússia, é uma cidade imponente e cheia de história, famosa pela Praça Vermelha, o Kremlin e a Catedral de São Basílio.",
+      "fuso_horario": "Europe/Moscow",
+      "categorias": [
+        {
+          "tipo": "História",
+          "locais": [
+            {
+              "nome": "Praça Vermelha",
+              "descricao": "A principal praça de Moscou, rodeada por marcos como o Kremlin, a Catedral de São Basílio e o Mausoléu de Lênin.",
+              "imagem_url": "./images/moscou.jpg",
+              "atividades": [
+                "Passeio histórico",
+                "Fotografia"
+              ]
+            },
+            {
+              "nome": "Kremlin",
+              "descricao": "O Kremlin é uma fortaleza que abriga o governo russo, museus e igrejas históricas, sendo um dos principais símbolos da Rússia.",
+              "imagem_url": "./images/moscou.jpg",
+              "atividades": [
+                "Visita guiada",
+                "Exploração cultural"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

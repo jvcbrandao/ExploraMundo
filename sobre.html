@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploraMundo - Realize seu sonho agora mesmo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <span><a href="index.html">ExploraMundo</a></span>
+            <ul id="menu-horizontal">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div id="container-busca">
+
+                <div class="input-container">
+                    <div class="search-icon"></div>
+                    <input type="text" id='input-destino' placeholder="Informe o destino ou palavra-chave">
+                </div>
+                <button type="button" id="buscar-destino" onClick="encontrarDestino()">Buscar Destino</button>
+                <button name="limpar-destino" id="limpar-destino">Limpar</button>
+            </div>
+
+        </nav>
+    </header>
+    
+    <main id="main-sobre">
+        
+        <section class='valores'>
+            <h1>Sobre nós</h1>
+            <h2>Missão</h2>
+            <p>Nossa missão é conectar viajantes com destinos inspiradores ao redor do mundo, proporcionando experiências únicas e memoráveis, enquanto promovemos o respeito às culturas locais e à sustentabilidade.</p>
+            <h2>Visão</h2>
+            <p>Ser a principal escolha para viajantes que buscam explorar o mundo com autenticidade e segurança, oferecendo recomendações personalizadas e apoio contínuo durante toda a jornada.</p>
+            <h2>Nossa equipe</h2>
+            <p>João Vitor Brandão - Desenvolvedor Front-End</p>
+
+        </section>
+        
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

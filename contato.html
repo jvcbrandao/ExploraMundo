@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - ExploraMundo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <span><a href="index.html">ExploraMundo</a></span>
+            <ul id="menu-horizontal">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            <div id="container-busca">
+                <div class="input-container">
+                    <div class="search-icon"></div>
+                    <input type="text" id='input-destino' placeholder="Informe o destino ou palavra-chave">
+                </div>
+                <button type="button" id="buscar-destino" onClick="encontrarDestino()">Buscar Destino</button>
+                <button name="limpar-destino" id="limpar-destino">Limpar</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-contato" class="container">
+        <h2 class="valores" style="text-align: center;">Formulário de Contato</h2>
+        <section class="formulario-contato valores">
+            
+            <form action="submit_form.php" method="POST" id="formulario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!--
+
+        <section class="formulario-contato valores">
+            
+            <form action="submit_form.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="informacoes-contato valores">
+            <h2>Entre em Contato</h2>
+            <p>Estamos aqui para ajudar! Entre em contato conosco através dos meios abaixo ou preencha o formulário de contato.</p>
+            <div class="info">
+                <div class="info-item">
+                    <h3>Endereço</h3>
+                    <p>Rua das Flores, 123, Centro<br>Cidade, Estado, 12345-678</p>
+                </div>
+                <div class="info-item">
+                    <h3>Telefone</h3>
+                    <p>(11) 1234-5678</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p>contato@exploramundo.com.br</p>
+                </div>
+            </div>
+        </section>
+
+-->
