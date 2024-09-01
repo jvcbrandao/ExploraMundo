@@ -1,0 +1,299 @@
+{
+  "destinations": [
+    {
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "description": "Rio de Janeiro is a vibrant city, famous for its iconic beaches, carnival, and the Christ the Redeemer statue.",
+      "timezone": "America/Sao_Paulo",
+      "categories": [
+        {
+          "type": "Beach",
+          "places": [
+            {
+              "name": "Copacabana Beach",
+              "description": "One of the most famous beaches in the world, known for its long stretch of golden sand and lively nightlife.",
+              "image_url": "./images/rio.jpg",
+              "activities": [
+                "Sunbathing",
+                "Beach volleyball",
+                "Surfing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Paris",
+      "country": "France",
+      "description": "Paris is the capital of France, known as the 'City of Light', famous for its landmarks, museums, and refined cuisine.",
+      "timezone": "Europe/Paris",
+      "categories": [
+        {
+          "type": "Monument",
+          "places": [
+            {
+              "name": "Eiffel Tower",
+              "description": "One of the most iconic monuments in the world, offering panoramic views of Paris.",
+              "image_url": "./images/paris.jpg",
+              "activities": [
+                "Guided tour",
+                "Dining in the restaurant",
+                "Photography"
+              ]
+            },
+            {
+              "name": "Notre-Dame Cathedral",
+              "description": "A world-renowned Gothic cathedral known for its impressive architecture and detailed stained glass windows.",
+              "image_url": "./images/paris.jpg",
+              "activities": [
+                "Historical visit",
+                "Architectural observation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "country": "Japan",
+      "description": "Tokyo is the capital of Japan, a modern metropolis that blends cultural tradition with advanced technology.",
+      "timezone": "Asia/Tokyo",
+      "categories": [
+        {
+          "type": "Temple",
+          "places": [
+            {
+              "name": "Senso-ji Temple",
+              "description": "Tokyo's oldest Buddhist temple, an important spiritual and tourist destination.",
+              "image_url": "./images/sensoji.jpg",
+              "activities": [
+                "Spiritual visit",
+                "Stroll along Nakamise-dori"
+              ]
+            },
+            {
+              "name": "Meiji Jingu",
+              "description": "A Shinto shrine dedicated to Emperor Meiji and his wife, located in a serene forest in central Tokyo.",
+              "image_url": "./images/meiji.jpg",
+              "activities": [
+                "Religious ceremonies",
+                "Nature exploration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "New York",
+      "country": "United States",
+      "description": "New York is one of the most iconic cities in the world, known for its cultural diversity, impressive architecture, and vibrant nightlife.",
+      "timezone": "America/New_York",
+      "categories": [
+        {
+          "type": "Museum",
+          "places": [
+            {
+              "name": "Metropolitan Museum of Art (The Met)",
+              "description": "One of the largest and most prestigious art museums in the world, with a collection spanning over 5,000 years of culture.",
+              "image_url": "./images/newyork.jpg",
+              "activities": [
+                "Art exploration",
+                "Guided tours"
+              ]
+            },
+            {
+              "name": "American Museum of Natural History",
+              "description": "One of the world's most important natural history museums, featuring exhibits that include dinosaur fossils and a vast collection of specimens.",
+              "image_url": "./images/newyork.jpg",
+              "activities": [
+                "Scientific exploration",
+                "Educational visits"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "London",
+      "country": "United Kingdom",
+      "description": "London is the capital of the United Kingdom, a city rich in history and culture, famous for landmarks like Big Ben and Buckingham Palace.",
+      "timezone": "Europe/London",
+      "categories": [
+        {
+          "type": "Monument",
+          "places": [
+            {
+              "name": "Big Ben",
+              "description": "The world's most famous clock, located in the tower of the British Parliament.",
+              "image_url": "./images/london.jpg",
+              "activities": [
+                "Guided tour",
+                "Photography"
+              ]
+            },
+            {
+              "name": "Buckingham Palace",
+              "description": "The official residence of the Queen of the United Kingdom, famous for the Changing of the Guard.",
+              "image_url": "./images/london.jpg",
+              "activities": [
+                "Royal history tour",
+                "Guard change observation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Sydney",
+      "country": "Australia",
+      "description": "Sydney is the largest city in Australia, famous for the Opera House, Harbour Bridge, and beautiful beaches.",
+      "timezone": "Australia/Sydney",
+      "categories": [
+        {
+          "type": "Architecture",
+          "places": [
+            {
+              "name": "Sydney Opera House",
+              "description": "One of the most iconic buildings in the world, the Opera House is a symbol of the city and a center for performing arts.",
+              "image_url": "./images/sydney.jpg",
+              "activities": [
+                "Architectural tour",
+                "Shows",
+                "Photography"
+              ]
+            },
+            {
+              "name": "Harbour Bridge",
+              "description": "The Harbour Bridge is one of the largest steel arch bridges in the world, offering stunning views of the city and harbor.",
+              "image_url": "./images/sydney.jpg",
+              "activities": [
+                "Bridge climbing",
+                "Boat tours",
+                "Photography"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Beach",
+          "places": [
+            {
+              "name": "Bondi Beach",
+              "description": "One of Australia's most famous beaches, known for great surfing conditions and a relaxed atmosphere.",
+              "image_url": "./images/sydney.jpg",
+              "activities": [
+                "Surfing",
+                "Sunbathing",
+                "Swimming"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "description": "Bangkok is the capital of Thailand, a city known for its ornate temples, royal palaces, and vibrant nightlife.",
+      "timezone": "Asia/Bangkok",
+      "categories": [
+        {
+          "type": "Temple",
+          "places": [
+            {
+              "name": "Wat Arun",
+              "description": "Known as the Temple of Dawn, Wat Arun is one of the most beautiful and visited temples in Bangkok, located along the Chao Phraya River.",
+              "image_url": "./images/bangkok.jpg",
+              "activities": [
+                "Spiritual visit",
+                "Cultural exploration",
+                "Photography"
+              ]
+            },
+            {
+              "name": "Grand Palace",
+              "description": "A complex of buildings that served as the official residence of the kings of Thailand, famous for its stunning architecture and the Temple of the Emerald Buddha.",
+              "image_url": "./images/palacy.jpg",
+              "activities": [
+                "Historical visit",
+                "Cultural exploration",
+                "Photography"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Phuket",
+      "country": "Thailand",
+      "description": "Phuket is a tropical paradise in Thailand, known for its stunning beaches, vibrant nightlife, and clear blue waters.",
+      "timezone": "Asia/Bangkok",
+      "categories": [
+        {
+          "type": "Beach",
+          "places": [
+            {
+              "name": "Patong Beach",
+              "description": "The most famous beach in Phuket, known for its bustling nightlife, water sports, and lively atmosphere.",
+              "image_url": "./images/patonga.jpg",
+              "activities": [
+                "Snorkeling",
+                "Sunbathing",
+                "Beach parties"
+              ]
+            },
+            {
+              "name": "Kata Beach",
+              "description": "A quieter beach with pristine sands and clear waters, ideal for families and those seeking relaxation.",
+              "image_url": "./images/kata.jpg",
+              "activities": [
+                "Swimming",
+                "Surfing",
+                "Relaxation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "city": "Kyoto",
+      "country": "Japan",
+      "description": "Kyoto is a city in Japan renowned for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses.",
+      "timezone": "Asia/Tokyo",
+      "categories": [
+        {
+          "type": "Temple",
+          "places": [
+            {
+              "name": "Fushimi Inari Shrine",
+              "description": "A Shinto shrine famous for its thousands of red torii gates, leading up to the forest of Mount Inari.",
+              "image_url": "./images/fushimi.jpg",
+              "activities": [
+                "Hiking",
+                "Spiritual visit",
+                "Photography"
+              ]
+            },
+            {
+              "name": "Kinkaku-ji (Golden Pavilion)",
+              "description": "A Zen Buddhist temple covered in gold leaf, set amidst a tranquil pond and gardens.",
+              "image_url": "./images/golden.jpg",
+              "activities": [
+                "Temple visit",
+                "Garden stroll",
+                "Photography"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

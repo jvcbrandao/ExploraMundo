@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - ExploraMundo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <span><a href="index.html">ExploraMundo</a></span>
+            <ul id="menu-horizontal">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <div id="container-busca">
+
+                <div class="input-container">
+                    <div class="search-icon"></div>
+                    <input type="text" id='input-destino' placeholder="Where do want to go?">
+                </div>
+                <button type="button" id="buscar-destino" onClick="encontrarDestino()">Search</button>
+                <button name="limpar-destino" id="limpar-destino">Clear</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <main id="main-contato" class="container">
+        <h2 class="valores" style="text-align: center;">Contact us</h2>
+        <section class="formulario-contato valores">
+            
+            <form action="submit_form.php" method="POST" id="formulario">
+                <label for="nome">Name:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Message:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
