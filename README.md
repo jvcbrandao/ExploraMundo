@@ -37,4 +37,4 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/exploramundo.git
+   git clone https://github.com/jvcbrandao/ExploraMundo.git

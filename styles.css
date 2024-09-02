@@ -24,9 +24,13 @@ body {
 
 #menu {
     display: flex;
-    background-color: var(--cor-primaria);
+    background: linear-gradient(90deg, var(--cor-primaria), var(--cor-terciaria));
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    animation: slideIn 1s ease-out;
 }
 
 #container-busca {
@@ -42,6 +46,7 @@ body {
 #buscar-destino,
 #input-destino {
     height: 2rem;
+    outline: none;
 }
 
 #limpar-destino,
@@ -67,6 +72,25 @@ ul {
 }
 
 
+#menu-horizontal li a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#menu-horizontal li a:hover {
+    color: var(--cor-quaternaria);
+    transform: scale(1.1);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 #buscar-destino {
     margin: 0 1rem;
